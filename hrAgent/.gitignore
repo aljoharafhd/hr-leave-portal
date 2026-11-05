@@ -20,3 +20,4 @@ agentcore/.cache/
 
 # CDK
 agentcore/cdk/cdk.out/
+.env.aws.local
