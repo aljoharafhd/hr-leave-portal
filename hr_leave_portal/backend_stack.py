@@ -92,6 +92,7 @@ class BackendStack(Stack):
 
         # Expose Lambda to other stacks
         self.api_function = api_function
+        self.table = table
 
         # Cognito User Pool
         self.user_pool = cognito.UserPool(
@@ -105,7 +106,7 @@ class BackendStack(Stack):
         )
 
         # Cognito app client
-        user_pool_client = self.user_pool.add_client(
+        self.user_pool_client = self.user_pool.add_client(
             "HrUserPoolClient",
             auth_flows=cognito.AuthFlow(
                 user_password=True,
@@ -155,5 +156,5 @@ class BackendStack(Stack):
         CfnOutput(
             self,
             "UserPoolClientId",
-            value=user_pool_client.user_pool_client_id,
+            value=self.user_pool_client.user_pool_client_id,
         )
