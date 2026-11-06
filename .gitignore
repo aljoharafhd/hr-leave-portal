@@ -20,4 +20,4 @@ venv.bak/
 .cdk.staging/
 cdk.out/
 
-/fastapi-layer.zip
+/fastapi-layer.ziphrAgent/agentcore/.env.aws.local
