@@ -9,8 +9,8 @@
 export const amplifyConfig = {
   Auth: {
     Cognito: {
-      userPoolId: import.meta.env.VITE_USER_POOL_ID as string,
-      userPoolClientId: import.meta.env.VITE_USER_POOL_CLIENT_ID as string,
+      userPoolId: import.meta.env.VITE_COGNITO_USER_POOL_ID as string,
+      userPoolClientId: import.meta.env.VITE_COGNITO_USER_POOL_CLIENT_ID as string,
     },
   },
 } as const

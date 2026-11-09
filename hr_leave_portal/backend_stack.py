@@ -130,9 +130,21 @@ class BackendStack(Stack):
             handler=api_function,
             default_method_options=apigw.MethodOptions(
                 authorizer=authorizer,
-                authorization_type=(
-                    apigw.AuthorizationType.COGNITO
-                ),
+                authorization_type=apigw.AuthorizationType.COGNITO,
+            ),
+            default_cors_preflight_options=apigw.CorsOptions(
+                allow_origins=[
+                    "*"
+                ],
+                allow_methods=apigw.Cors.ALL_METHODS,
+                allow_headers=[
+                    "Content-Type",
+                    "Authorization",
+                    "X-Amz-Date",
+                    "X-Api-Key",
+                    "X-Amz-Security-Token",
+                ],
+                allow_credentials=False,
             ),
         )
 

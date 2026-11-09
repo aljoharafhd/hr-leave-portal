@@ -27,4 +27,5 @@ async def log_requests(request: Request, call_next):
 
 @logger.inject_lambda_context
 @tracer.capture_lambda_handler
-lambda_handler = Mangum(app)
+def lambda_handler(event, context):
+    return Mangum(app)(event, context)
