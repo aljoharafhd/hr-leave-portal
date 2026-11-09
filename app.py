@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import aws_cdk as cdk
 from hr_leave_portal.backend_stack import BackendStack
+from hr_leave_portal.frontend_stack import FrontendStack
 from hr_leave_portal.notification_stack import NotificationStack
 from hr_leave_portal.state_machine_stack import StateMachineStack
 
@@ -15,5 +16,7 @@ state_machine = StateMachineStack(
     hr_email_topic=notifications.hr_email_topic,
     api_function=backend.api_function
 )
+
+frontend = FrontendStack(app, "HrLeavePortalFrontend")
 
 app.synth()

@@ -85,7 +85,10 @@ class BackendStack(Stack):
             memory_size=512,
             environment={
                 "TABLE_NAME": table.table_name,
+                "POWERTOOLS_SERVICE_NAME": "hr-api",
+                "POWERTOOLS_LOG_LEVEL": "INFO",
             },
+            tracing=lambda_.Tracing.ACTIVE,
         )
 
         table.grant_read_write_data(api_function)
