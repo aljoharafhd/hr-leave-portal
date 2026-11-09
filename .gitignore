@@ -54,3 +54,4 @@ aidlc/diagnostics/
 # END AI-DLC:gitignore
 
 hrAgent/agentcore/.env.aws.local
+hrAgent/agentcore/.env.aws.local
