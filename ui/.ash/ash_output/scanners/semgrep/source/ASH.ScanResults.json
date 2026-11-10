@@ -1,0 +1,1 @@
+{"scanner_name": "semgrep", "target": "/Users/aljoharaalmulhim/Desktop/hr-leave-portal/ui", "target_type": "source", "exit_code": 0, "finding_count": 0, "start_time": "2026-11-10T21:12:11.495244Z", "end_time": "2026-11-10T21:12:15.799558Z", "duration": 4.304314, "severity_counts": {}, "status": "PASSED"}

@@ -1,0 +1,1 @@
+{"scanner_name": "npm-audit", "target": "/Users/aljoharaalmulhim/Desktop/hr-leave-portal/ui", "target_type": "source", "exit_code": 1, "finding_count": 19, "start_time": "2026-11-10T21:12:11.498607Z", "end_time": "2026-11-10T21:12:13.851333Z", "duration": 2.352726, "severity_counts": {"critical": 3, "medium": 16}, "status": "PASSED"}

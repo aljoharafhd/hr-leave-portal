@@ -22,5 +22,6 @@ dev = [
     "aws-lambda-powertools[tracer]>=3.39.0",
     "boto3>=1.43.127",
     "moto>=5.2.5",
+    "pip-audit>=2.10.1",
     "pytest==8.4.2",
 ]

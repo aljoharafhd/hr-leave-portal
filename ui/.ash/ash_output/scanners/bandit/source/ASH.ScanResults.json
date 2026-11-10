@@ -1,0 +1,1 @@
+{"scanner_name": "bandit", "target": "/Users/aljoharaalmulhim/Desktop/hr-leave-portal/ui", "target_type": "source", "exit_code": 0, "finding_count": 0, "start_time": "2026-11-10T21:12:11.494977Z", "end_time": "2026-11-10T21:12:12.584519Z", "duration": 1.089542, "severity_counts": {}, "status": "PASSED"}

@@ -1,0 +1,1 @@
+{"scanner_name": "checkov", "target": "/Users/aljoharaalmulhim/Desktop/hr-leave-portal/ui", "target_type": "source", "exit_code": 0, "finding_count": 0, "start_time": "2026-11-10T21:12:11.495131Z", "end_time": "2026-11-10T21:12:15.195421Z", "duration": 3.70029, "severity_counts": {}, "status": "PASSED"}

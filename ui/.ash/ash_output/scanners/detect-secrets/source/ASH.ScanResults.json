@@ -1,0 +1,1 @@
+{"scanner_name": "detect-secrets", "target": "/Users/aljoharaalmulhim/Desktop/hr-leave-portal/ui", "target_type": "source", "exit_code": 0, "finding_count": 0, "start_time": "2026-11-10T21:12:11.498705Z", "end_time": "2026-11-10T21:12:12.998293Z", "duration": 1.499588, "severity_counts": {}, "status": "PASSED"}

@@ -1,0 +1,895 @@
+[
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Transitive vulnerability in @eslint/config-array (via minimatch) >=0.23.0",
+      "title": "npm-audit-transitive-@eslint/config-array in package.json - Transitive vulnerability in @eslint/config-array (via minima...",
+      "uid": "70bef483-c5ac-41c5-bd70-7acab4e6f544"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 3,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/@eslint/config-array/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Transitive vulnerability in @eslint/config-array (via minimatch) >=0.23.0",
+          "uid": "npm-audit-transitive-@eslint/config-array"
+        },
+        "desc": "Transitive vulnerability in @eslint/config-array (via minimatch) >=0.23.0",
+        "severity": "WARNING",
+        "title": "npm-audit-transitive-@eslint/config-array"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Transitive vulnerability in @eslint/js (via eslint) >=10.0.1",
+      "title": "npm-audit-transitive-@eslint/js in package.json - Transitive vulnerability in @eslint/js (via eslint) >=10.0.1",
+      "uid": "6d5b5914-a02e-4026-90d8-6e5eeff887a8"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 3,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/@eslint/js/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Transitive vulnerability in @eslint/js (via eslint) >=10.0.1",
+          "uid": "npm-audit-transitive-@eslint/js"
+        },
+        "desc": "Transitive vulnerability in @eslint/js (via eslint) >=10.0.1",
+        "severity": "WARNING",
+        "title": "npm-audit-transitive-@eslint/js"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Transitive vulnerability in @typescript-eslint/eslint-plugin (via @typescript-eslint/type-utils, @typescript-eslint/utils) 6.16.0 - 8.72.2",
+      "title": "npm-audit-transitive-@typescript-eslint/eslint-plugin in package.json - Transitive vulnerability in @typescript-eslint/e...",
+      "uid": "0cc26fe7-c9b6-42ad-8e5d-118e7685d363"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 3,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/@typescript-eslint/eslint-plugin/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Transitive vulnerability in @typescript-eslint/eslint-plugin (via @typescript-eslint/type-utils, @typescript-eslint/utils) 6.16.0 - 8.72.2",
+          "uid": "npm-audit-transitive-@typescript-eslint/eslint-plugin"
+        },
+        "desc": "Transitive vulnerability in @typescript-eslint/eslint-plugin (via @typescript-eslint/type-utils, @typescript-eslint/utils) 6.16.0 - 8.72.2",
+        "severity": "WARNING",
+        "title": "npm-audit-transitive-@typescript-eslint/eslint-plugin"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Transitive vulnerability in @typescript-eslint/parser (via @typescript-eslint/typescript-estree) 6.16.0 - 8.72.2",
+      "title": "npm-audit-transitive-@typescript-eslint/parser in package.json - Transitive vulnerability in @typescript-eslint/parser (...",
+      "uid": "39322924-cca0-4d76-93d9-bd6a747679d8"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 3,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/@typescript-eslint/parser/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Transitive vulnerability in @typescript-eslint/parser (via @typescript-eslint/typescript-estree) 6.16.0 - 8.72.2",
+          "uid": "npm-audit-transitive-@typescript-eslint/parser"
+        },
+        "desc": "Transitive vulnerability in @typescript-eslint/parser (via @typescript-eslint/typescript-estree) 6.16.0 - 8.72.2",
+        "severity": "WARNING",
+        "title": "npm-audit-transitive-@typescript-eslint/parser"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Transitive vulnerability in @typescript-eslint/type-utils (via @typescript-eslint/typescript-estree, @typescript-eslint/utils) 6.16.0 - 8.72.2",
+      "title": "npm-audit-transitive-@typescript-eslint/type-utils in package.json - Transitive vulnerability in @typescript-eslint/type...",
+      "uid": "d0326b73-cd0e-4a0c-9435-6fcedf8cbc70"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 3,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/@typescript-eslint/type-utils/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Transitive vulnerability in @typescript-eslint/type-utils (via @typescript-eslint/typescript-estree, @typescript-eslint/utils) 6.16.0 - 8.72.2",
+          "uid": "npm-audit-transitive-@typescript-eslint/type-utils"
+        },
+        "desc": "Transitive vulnerability in @typescript-eslint/type-utils (via @typescript-eslint/typescript-estree, @typescript-eslint/utils) 6.16.0 - 8.72.2",
+        "severity": "WARNING",
+        "title": "npm-audit-transitive-@typescript-eslint/type-utils"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Transitive vulnerability in @typescript-eslint/typescript-estree (via minimatch) 6.16.0 - 8.72.2",
+      "title": "npm-audit-transitive-@typescript-eslint/typescript-estree in package.json - Transitive vulnerability in @typescript-esli...",
+      "uid": "f0dfbe3a-d7f7-4433-b1bd-8b40d9f16f14"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 3,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/@typescript-eslint/typescript-estree/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Transitive vulnerability in @typescript-eslint/typescript-estree (via minimatch) 6.16.0 - 8.72.2",
+          "uid": "npm-audit-transitive-@typescript-eslint/typescript-estree"
+        },
+        "desc": "Transitive vulnerability in @typescript-eslint/typescript-estree (via minimatch) 6.16.0 - 8.72.2",
+        "severity": "WARNING",
+        "title": "npm-audit-transitive-@typescript-eslint/typescript-estree"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Transitive vulnerability in @typescript-eslint/utils (via @typescript-eslint/typescript-estree) 6.16.0 - 8.72.2",
+      "title": "npm-audit-transitive-@typescript-eslint/utils in package.json - Transitive vulnerability in @typescript-eslint/utils (vi...",
+      "uid": "69491241-cd87-4442-af00-634f7d35d013"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 3,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/@typescript-eslint/utils/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Transitive vulnerability in @typescript-eslint/utils (via @typescript-eslint/typescript-estree) 6.16.0 - 8.72.2",
+          "uid": "npm-audit-transitive-@typescript-eslint/utils"
+        },
+        "desc": "Transitive vulnerability in @typescript-eslint/utils (via @typescript-eslint/typescript-estree) 6.16.0 - 8.72.2",
+        "severity": "WARNING",
+        "title": "npm-audit-transitive-@typescript-eslint/utils"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Transitive vulnerability in @vitest/coverage-v8 (via test-exclude, vitest) 2.0.0-beta.1 - 4.1.10",
+      "title": "npm-audit-transitive-@vitest/coverage-v8 in package.json - Transitive vulnerability in @vitest/coverage-v8 (via test-exc...",
+      "uid": "d541cecb-b138-4a1a-8596-efccaaa1a651"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 3,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/@vitest/coverage-v8/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Transitive vulnerability in @vitest/coverage-v8 (via test-exclude, vitest) 2.0.0-beta.1 - 4.1.10",
+          "uid": "npm-audit-transitive-@vitest/coverage-v8"
+        },
+        "desc": "Transitive vulnerability in @vitest/coverage-v8 (via test-exclude, vitest) 2.0.0-beta.1 - 4.1.10",
+        "severity": "WARNING",
+        "title": "npm-audit-transitive-@vitest/coverage-v8"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Vitest: Path Traversal / Arbitrary File Read via @vitest/mocker Redirect Mock in @vitest/mocker <=4.1.11. https://github.com/advisories/GHSA-82fw-gwwq-j7x9",
+      "title": "GHSA-82fw-gwwq-j7x9 in package.json - Vitest: Path Traversal / Arbitrary File Read via @vitest/mocker Redirect Mock in @...",
+      "uid": "20b02c25-3165-461f-b54c-087905c2a724"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 3,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/vitest/@vitest/mocker/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Vitest: Path Traversal / Arbitrary File Read via @vitest/mocker Redirect Mock in @vitest/mocker <=4.1.11. https://github.com/advisories/GHSA-82fw-gwwq-j7x9",
+          "uid": "GHSA-82fw-gwwq-j7x9"
+        },
+        "desc": "Vitest: Path Traversal / Arbitrary File Read via @vitest/mocker Redirect Mock in @vitest/mocker <=4.1.11. https://github.com/advisories/GHSA-82fw-gwwq-j7x9",
+        "severity": "WARNING",
+        "title": "GHSA-82fw-gwwq-j7x9"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Vitest: Code injection via unauthenticated manual mock registration in @vitest/mocker <=4.1.11. https://github.com/advisories/GHSA-qxg6-89mg-rqv8",
+      "title": "GHSA-qxg6-89mg-rqv8 in package.json - Vitest: Code injection via unauthenticated manual mock registration in @vitest/moc...",
+      "uid": "927a87cc-3c70-4d70-916a-92ddb64ef7ee"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 3,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/vitest/@vitest/mocker/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Vitest: Code injection via unauthenticated manual mock registration in @vitest/mocker <=4.1.11. https://github.com/advisories/GHSA-qxg6-89mg-rqv8",
+          "uid": "GHSA-qxg6-89mg-rqv8"
+        },
+        "desc": "Vitest: Code injection via unauthenticated manual mock registration in @vitest/mocker <=4.1.11. https://github.com/advisories/GHSA-qxg6-89mg-rqv8",
+        "severity": "WARNING",
+        "title": "GHSA-qxg6-89mg-rqv8"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Transitive vulnerability in eslint (via @eslint/config-array, minimatch) >=10.0.0-alpha.0",
+      "title": "npm-audit-transitive-eslint in package.json - Transitive vulnerability in eslint (via @eslint/config-array, minimatch) >...",
+      "uid": "659eb2bb-1a06-4506-8ba9-3a0ffb996b81"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 3,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/eslint/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Transitive vulnerability in eslint (via @eslint/config-array, minimatch) >=10.0.0-alpha.0",
+          "uid": "npm-audit-transitive-eslint"
+        },
+        "desc": "Transitive vulnerability in eslint (via @eslint/config-array, minimatch) >=10.0.0-alpha.0",
+        "severity": "WARNING",
+        "title": "npm-audit-transitive-eslint"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Glob: AbortSignal cancellation bypass allows post-timeout filesystem traversal in glob 9.0.0 - 14.0.1. https://github.com/advisories/GHSA-3g3m-2fjr-6pw4",
+      "title": "GHSA-3g3m-2fjr-6pw4 in package.json - Glob: AbortSignal cancellation bypass allows post-timeout filesystem traversal in ...",
+      "uid": "c9cdeb28-924b-4aa3-a6e0-8c791ae67c23"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 3,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/glob/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Glob: AbortSignal cancellation bypass allows post-timeout filesystem traversal in glob 9.0.0 - 14.0.1. https://github.com/advisories/GHSA-3g3m-2fjr-6pw4",
+          "uid": "GHSA-3g3m-2fjr-6pw4"
+        },
+        "desc": "Glob: AbortSignal cancellation bypass allows post-timeout filesystem traversal in glob 9.0.0 - 14.0.1. https://github.com/advisories/GHSA-3g3m-2fjr-6pw4",
+        "severity": "WARNING",
+        "title": "GHSA-3g3m-2fjr-6pw4"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "minimatch has potential denial of service via globparts amplification in minimatch 7.0.0 - 11.0.0. https://github.com/advisories/GHSA-g3hv-75wg-m249",
+      "title": "GHSA-g3hv-75wg-m249 in package.json - minimatch has potential denial of service via globparts amplification in minimatch...",
+      "uid": "7f77476a-f67e-4465-a891-1f334f7dfc25"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 3,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/glob/minimatch/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "minimatch has potential denial of service via globparts amplification in minimatch 7.0.0 - 11.0.0. https://github.com/advisories/GHSA-g3hv-75wg-m249",
+          "uid": "GHSA-g3hv-75wg-m249"
+        },
+        "desc": "minimatch has potential denial of service via globparts amplification in minimatch 7.0.0 - 11.0.0. https://github.com/advisories/GHSA-g3hv-75wg-m249",
+        "severity": "WARNING",
+        "title": "GHSA-g3hv-75wg-m249"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "minimatch has potential denial of service via globparts amplification in minimatch 7.0.0 - 11.0.0. https://github.com/advisories/GHSA-g3hv-75wg-m249",
+      "title": "GHSA-g3hv-75wg-m249 in package.json - minimatch has potential denial of service via globparts amplification in minimatch...",
+      "uid": "6c782ea4-0ba6-434e-9818-b6767f7ff99f"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 3,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/minimatch/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "minimatch has potential denial of service via globparts amplification in minimatch 7.0.0 - 11.0.0. https://github.com/advisories/GHSA-g3hv-75wg-m249",
+          "uid": "GHSA-g3hv-75wg-m249"
+        },
+        "desc": "minimatch has potential denial of service via globparts amplification in minimatch 7.0.0 - 11.0.0. https://github.com/advisories/GHSA-g3hv-75wg-m249",
+        "severity": "WARNING",
+        "title": "GHSA-g3hv-75wg-m249"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Transitive vulnerability in test-exclude (via glob, minimatch) >=7.0.0",
+      "title": "npm-audit-transitive-test-exclude in package.json - Transitive vulnerability in test-exclude (via glob, minimatch) >=7.0...",
+      "uid": "36a69e52-b0cd-46d8-9e90-8b7adc193034"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 3,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/test-exclude/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Transitive vulnerability in test-exclude (via glob, minimatch) >=7.0.0",
+          "uid": "npm-audit-transitive-test-exclude"
+        },
+        "desc": "Transitive vulnerability in test-exclude (via glob, minimatch) >=7.0.0",
+        "severity": "WARNING",
+        "title": "npm-audit-transitive-test-exclude"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Tinypool: Prototype Pollution gadget in worker options leads to Remote Code Execution in tinypool <=2.1.1. https://github.com/advisories/GHSA-5gmw-xhrv-c9v3",
+      "title": "GHSA-5gmw-xhrv-c9v3 in package.json - Tinypool: Prototype Pollution gadget in worker options leads to Remote Code Execut...",
+      "uid": "25ea759d-68a4-43da-806f-f2be4192d4a6"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 4,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/tinypool/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Tinypool: Prototype Pollution gadget in worker options leads to Remote Code Execution in tinypool <=2.1.1. https://github.com/advisories/GHSA-5gmw-xhrv-c9v3",
+          "uid": "GHSA-5gmw-xhrv-c9v3"
+        },
+        "desc": "Tinypool: Prototype Pollution gadget in worker options leads to Remote Code Execution in tinypool <=2.1.1. https://github.com/advisories/GHSA-5gmw-xhrv-c9v3",
+        "severity": "ERROR",
+        "title": "GHSA-5gmw-xhrv-c9v3"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Tinypool: Prototype Pollution Gadget to RCE in run() options in tinypool <=2.1.1. https://github.com/advisories/GHSA-85c8-ppgw-ccpr",
+      "title": "GHSA-85c8-ppgw-ccpr in package.json - Tinypool: Prototype Pollution Gadget to RCE in run() options in tinypool <=2.1.1. ...",
+      "uid": "037bf6e5-f9b2-43db-95ab-a8dabd56e591"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 4,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/tinypool/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Tinypool: Prototype Pollution Gadget to RCE in run() options in tinypool <=2.1.1. https://github.com/advisories/GHSA-85c8-ppgw-ccpr",
+          "uid": "GHSA-85c8-ppgw-ccpr"
+        },
+        "desc": "Tinypool: Prototype Pollution Gadget to RCE in run() options in tinypool <=2.1.1. https://github.com/advisories/GHSA-85c8-ppgw-ccpr",
+        "severity": "ERROR",
+        "title": "GHSA-85c8-ppgw-ccpr"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Transitive vulnerability in typescript-eslint (via @typescript-eslint/eslint-plugin, @typescript-eslint/parser, @typescript-eslint/typescript-estree, @typescript-eslint/utils) <=8.72.2",
+      "title": "npm-audit-transitive-typescript-eslint in package.json - Transitive vulnerability in typescript-eslint (via @typescript-...",
+      "uid": "8fcbf8cb-10c6-4be9-adf7-b091c18cf0c2"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 3,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/typescript-eslint/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Transitive vulnerability in typescript-eslint (via @typescript-eslint/eslint-plugin, @typescript-eslint/parser, @typescript-eslint/typescript-estree, @typescript-eslint/utils) <=8.72.2",
+          "uid": "npm-audit-transitive-typescript-eslint"
+        },
+        "desc": "Transitive vulnerability in typescript-eslint (via @typescript-eslint/eslint-plugin, @typescript-eslint/parser, @typescript-eslint/typescript-estree, @typescript-eslint/utils) <=8.72.2",
+        "severity": "WARNING",
+        "title": "npm-audit-transitive-typescript-eslint"
+      }
+    ]
+  },
+  {
+    "activity_id": 1,
+    "activity_name": "Scan",
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_uid": 2002,
+    "finding_info": {
+      "desc": "Vitest: Path Traversal / Arbitrary File Read via @vitest/mocker Redirect Mock in vitest 0.0.95 - 4.1.10. https://github.com/advisories/GHSA-82fw-gwwq-j7x9",
+      "title": "GHSA-82fw-gwwq-j7x9 in package.json - Vitest: Path Traversal / Arbitrary File Read via @vitest/mocker Redirect Mock in v...",
+      "uid": "edca816e-84dd-4b82-bc2a-20281207dc99"
+    },
+    "metadata": {
+      "logged_time": 1794345135869,
+      "product": {
+        "name": "Automated Security Helper",
+        "vendor_name": "Amazon Web Services",
+        "version": "3.7.0"
+      },
+      "version": "1.1.0"
+    },
+    "severity_id": 4,
+    "status": "New",
+    "status_id": 1,
+    "time": 1794345135869,
+    "type_uid": 200201,
+    "vulnerabilities": [
+      {
+        "affected_code": [
+          {
+            "file": {
+              "name": "package.json",
+              "path": "node_modules/vitest/package.json",
+              "type_id": 1
+            },
+            "start_line": 1
+          }
+        ],
+        "cve": {
+          "desc": "Vitest: Path Traversal / Arbitrary File Read via @vitest/mocker Redirect Mock in vitest 0.0.95 - 4.1.10. https://github.com/advisories/GHSA-82fw-gwwq-j7x9",
+          "uid": "GHSA-82fw-gwwq-j7x9"
+        },
+        "desc": "Vitest: Path Traversal / Arbitrary File Read via @vitest/mocker Redirect Mock in vitest 0.0.95 - 4.1.10. https://github.com/advisories/GHSA-82fw-gwwq-j7x9",
+        "severity": "ERROR",
+        "title": "GHSA-82fw-gwwq-j7x9"
+      }
+    ]
+  }
+]

@@ -1,12 +1,16 @@
 import json
+# The only model the workflow invokes, from the state machine definition.
+WORKFLOW_MODEL_ID = "us.anthropic.claude-haiku-4-5-20251001-v1:0"
 
 from aws_cdk import (
+    Aws,
     CfnOutput,
     Stack,
     aws_iam as iam,
     aws_lambda as lambda_,
     aws_sns as sns,
     aws_stepfunctions as sfn)
+
 from constructs import Construct
 
 STATE_MACHINE_DEFINITION_FILE = "state_machines/hr_state_machine_definition.json"
@@ -41,8 +45,11 @@ class StateMachineStack(Stack):
         hr_email_topic.grant_publish(state_machine_role)
 
         state_machine_role.add_to_policy(
-            iam.PolicyStatement(actions=["cloudwatch:PutMetricData"], resources=["*"])
-        )
+            iam.PolicyStatement(
+        actions=["cloudwatch:PutMetricData"],
+        resources=["*"],
+        conditions={"StringEquals": {"cloudwatch:namespace": "HR"}})
+)
 
         hr_state_machine = sfn.CfnStateMachine(
             self,
