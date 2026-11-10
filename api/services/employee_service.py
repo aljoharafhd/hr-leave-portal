@@ -10,7 +10,7 @@ logger = Logger()
 tracer = Tracer()
 
 _table = None
-
+table = boto3.resource("dynamodb").Table(os.environ["TABLE_NAME"])
 
 @tracer.capture_method
 def _get_table():
